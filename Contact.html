@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactformulier</title>
+    <link rel="stylesheet" type="text/css" href="Opmaak.css">
+</head>
+<body>
+    <header>
+        <menu>
+            <li><a href="Index.html">Index</a></li>
+            <li><a href="mijncv.html">Mijn CV</a></li>
+        </menu>
+    </header>
+    <div>
+    <form action="verzenden.php" method="post">
+        <input type="text" placeholder="Naam" name="naam" required>
+        <br>
+        <input type="text" placeholder="Voornaam" name="Voornaam" required>
+        <br>
+        <input type="email" placeholder="Email" name="email" required>
+        <br>
+        <textarea placeholder="Uw bericht" name="bericht" required></textarea>
+        <button type="submit">Verzenden</button>
+    </form>
+    </div>
+    <footer>
+    <p>Copyright 2026</p>
+    </footer>
+</body>
+</html>
